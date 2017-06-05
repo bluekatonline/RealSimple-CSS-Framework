@@ -1,0 +1,82 @@
+
+.col1 {
+	width: 320px;
+	margin: 0 auto;
+	padding: 12px 8px;
+}
+.col2 {
+	width: 320px;
+	margin: 0 auto;
+	padding: 12px 8px;
+}
+
+@media (min-width: 481px) {
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 481px) {
+
+
+	
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 641px) {
+
+.homeSplash {
+	height: 320px;
+}
+
+.colContainer {
+	max-width: 640px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 12px;
+}
+.col1 {
+	width: 100%;
+	float: left;
+}
+.col2 {
+	width: 50%;
+	float: right;
+}
+	
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+
+@media (min-width: 960px) {
+
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}

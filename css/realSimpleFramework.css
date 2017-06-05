@@ -1,0 +1,67 @@
+/****************************************************************
+RealSimple Responsive Framework
+©Bluekat 2015
+http://www.bluekat.co.uk/downloads/realSimpleFramework.html
+*************************************************************** */
+
+* { box-sizing: border-box; }
+
+.container {
+
+}
+
+
+.col1 ,  .col2 , .col3 , .col4 {
+	width: 100%;
+	margin: 0 auto;
+	padding: 12px 8px;
+}
+.col2x2 {
+	width: 50%;
+	float: left;
+	padding: 12px 8px;
+}
+.col3x3 {
+	width: 33.3%;
+	float: left;
+	padding: 12px 8px;
+}
+
+.colContainer {
+	max-width: 1022px;
+	margin: 0 auto;
+}
+
+/* phone Large */
+@media (min-width: 425px) {
+	.col2 {
+		width: 50%;
+		float: left;
+	}
+}
+
+/* iPad/tablet */
+@media (min-width: 768px) {
+
+.col2 {
+	width: 50%;
+	float: left;
+}
+.col3 {
+	width: 33.3%;
+	float: left;
+}
+.col4 {
+	width: 50%;
+	float: left;
+}
+
+}
+
+/* Desktop */
+@media (min-width: 960px) {
+	.col4 {
+	width: 25%;
+	float: left;
+}
+}
