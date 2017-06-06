@@ -19,6 +19,17 @@ body {
  .logoStyles {
 	 width: 120px;
  }
+ 
+.headerLogo {
+	height: 223px;
+	width: 223px;
+/* 	background: orange; */
+	background-image: url('../img/logo.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+	margin: 0 auto;
+}
+
 p {
 	font-size: .95em;
 	margin-bottom: 1.8em;
@@ -61,7 +72,15 @@ footer {
  .logoStyles {
 	 width: 80px;
  }
-	
+.headerLogo {
+	height: 80px;
+	width: 420px;
+	background: orange;
+	background-image: url('../img/logo-horizontal-white.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+	margin: 0 auto;
+}	
 }
 
 /* iPad/tablet */
