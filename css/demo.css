@@ -4,12 +4,12 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
-	color: #fff;
-	background: #afafaf;
+	color: #607D8B;
+	background: #eceff1;
 }
 
 .container {
-	background: #fff;
+
 }
 
 .homeSplash {
@@ -21,8 +21,8 @@ body {
  }
  
 .headerLogo {
-	height: 223px;
-	width: 223px;
+	height: 193px;
+	width: 203px;
 /* 	background: orange; */
 	background-image: url('../img/logo.png');
     background-repeat:no-repeat;
@@ -39,11 +39,14 @@ h2, h3, a {
 	color: #fff;
 }
 
+.col1 ,  .col2 , .col3 , .col4 , .col2x2 , .col3x3 {
+/* 	border: 1px solid  */
+}
+
 footer {
 	position: fixed;
 	border: 0px;
-	background: #f2f2f2;
-	color: #0000ff;
+	color: #ffffff;
 	text-align: center;
 	width: 100%;
 	padding: 10px 0;
@@ -67,6 +70,12 @@ footer {
 .gold { background: #dbba00; }
 .grey { background: grey; }
 
+.white { background: #ffffff; }
+.grey1 { background: #eceff1; }
+.grey2 { background: #cfd8dc; }
+.grey3 { background: #b0bec5; }
+.grey5 { background: #90a4ae; }
+
 /* iPad/tablet */
 @media (min-width: 768px) {
  .logoStyles {
@@ -75,8 +84,8 @@ footer {
 .headerLogo {
 	height: 80px;
 	width: 420px;
-	background: orange;
-	background-image: url('../img/logo-horizontal-white.png');
+/* 	background: orange; */
+	background-image: url('../img/logo-horizontal.png');
     background-repeat:no-repeat;
     background-size:contain;
 	margin: 0 auto;
